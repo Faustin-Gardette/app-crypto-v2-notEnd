@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "font1";
+  src: url(../fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+$font1: "font1", sans-serif;
+
+$pink: #ff00ea;
+$back: #0f051d;
+
+:export {
+  $green: #0ecb81;
+  $red: red;
+  $white: white;
+}
+
+* {
+  font-family: $font1;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}

@@ -1,0 +1,65 @@
+nav {
+  position: absolute;
+  max-width: 1200px;
+  padding: 30px 50px;
+  left: 50%;
+  top: 50px;
+  transform: translate(-50%, -50%);
+  width: 100%;
+
+  .nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+
+    h1 {
+      cursor: pointer;
+    }
+
+    .nav-menu {
+      ul {
+        display: flex;
+        gap: 5rem;
+
+        li {
+          font-size: 1.3rem;
+          font-weight: 600;
+          cursor: pointer;
+
+          &:hover {
+            color: $pink;
+            transition: all 0.5s;
+          }
+        }
+      }
+    }
+    .nav-social {
+      ul {
+        display: flex;
+        gap: 1rem;
+
+        i {
+          cursor: pointer;
+
+          &:hover {
+            color: $pink;
+            transition: all 0.5s;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes hover {
+  0% {
+    background-size: 650%;
+  }
+  40% {
+    background-size: 650%;
+  }
+  100% {
+    background-size: 100%;
+  }
+}
